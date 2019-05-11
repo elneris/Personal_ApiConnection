@@ -9,7 +9,7 @@ class AbstractManager
 {
     protected $api;
 
-    public function __construct(string $table)
+    public function __construct()
     {
         $this->api = (new  ApiConnection())->getApiConnection();
     }
